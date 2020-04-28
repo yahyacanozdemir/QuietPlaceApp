@@ -1,6 +1,20 @@
 # QuietPlaceApp
-This project developed for the Solution Challenge.
 
+### This project developed for the Solution Challenge. 
+### Follow this link for the promotional video -> https://www.youtube.com/watch?v=sTqTBAlYllU&t=19s
+
+# App's Aim 
+Silencing the phone can be forgotten in the place where "Please Be Sure That Your Cell Phone is on Quiet or Vibrate" warning is found. This event can disturb people around us. It can put us in a difficult situation. Example, nobody wants their phone to ring at an important meeting. You mark locations where your phone needs to be muted or vibrated. When you come to that location, the Silent Location application will take the phone to your chosen mode for you with silently and quickly in background.
+
+# App's Devolapment Process
+We started to job with people's forgetfulness grievance.Many people said to us "I forgot to put my phone on silent and I am very embarrassed". Upon this problem which was common we started again to think. We said "
+If the problem was on the phone, the solution was on the phone".Finally we found a solution which was follow users 
+without disturb them.We decided to use android platform and google maps technologies. We developed a mobile app which was always run in background and change their ringer mode in their location elections with silently. Our mobile app can run as apk and can install to smart phones easily.
+
+# Quiet Place is Solving The Problem of Forgetfulness
+With this application, a students phone will not ring in the middle of the class or an employee will not be embarrassed because she / he rings the phone during a serious meeting. Your phone will not ring while worshiping in the mosque, church or a different place of worship. Another point is that this app is not only for lives of people our country. It is universal. The whole world can use it.
+
+# Testing Quiete Place
 You can use any android smartphone which is minimum android version 5.1 for test our app. You can download Quiet Place Apk from project files.
 
 ## App's ScreenShots
