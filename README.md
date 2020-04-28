@@ -1,4 +1,4 @@
-# QuietPlaceApp
+# Quiet Place Mobile App
 
 ### This project developed for the Solution Challenge. 
 ### Follow this link for the promotional video -> https://www.youtube.com/watch?v=sTqTBAlYllU&t=19s
@@ -14,7 +14,7 @@ without disturb them.We decided to use android platform and google maps technolo
 # Quiet Place is Solving The Problem of Forgetfulness
 With this application, a students phone will not ring in the middle of the class or an employee will not be embarrassed because she / he rings the phone during a serious meeting. Your phone will not ring while worshiping in the mosque, church or a different place of worship. Another point is that this app is not only for lives of people our country. It is universal. The whole world can use it.
 
-# Testing Quiete Place
+# Testing Quiet Place
 You can use any android smartphone which is minimum android version 5.1 for test our app. You can download Quiet Place Apk from project files.
 
 ## App's ScreenShots
