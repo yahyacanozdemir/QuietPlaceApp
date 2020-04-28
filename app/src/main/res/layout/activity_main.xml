@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appscreen"
+    tools:context=".MainActivity">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/AppLY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/addAdress1"
+        android:layout_width="86dp"
+        android:layout_height="76dp"
+        android:onClick="addAdress1"
+        app:layout_constraintBottom_toBottomOf="@+id/Adress1"
+        app:layout_constraintEnd_toEndOf="@+id/Adress1"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="@+id/Adress1"
+        app:layout_constraintTop_toTopOf="@+id/Adress1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/add2" />
+
+    <ImageView
+        android:id="@+id/addAdress2"
+        android:layout_width="86dp"
+        android:layout_height="76dp"
+        android:onClick="addAdress2"
+        app:layout_constraintBottom_toBottomOf="@+id/Adress2"
+        app:layout_constraintEnd_toEndOf="@+id/Adress2"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="@+id/Adress2"
+        app:layout_constraintTop_toTopOf="@+id/Adress2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/add2" />
+
+    <ImageView
+        android:id="@+id/addAdress3"
+        android:layout_width="86dp"
+        android:layout_height="76dp"
+        android:onClick="addAdress3"
+        app:layout_constraintBottom_toBottomOf="@+id/Adress3"
+        app:layout_constraintEnd_toEndOf="@+id/Adress3"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="@+id/Adress3"
+        app:layout_constraintTop_toTopOf="@+id/Adress3"
+        app:layout_constraintVertical_bias="0.75"
+        app:srcCompat="@drawable/add2" />
+
+
+
+    <ImageView
+        android:id="@+id/sound1"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="28dp"
+        android:onClick="snd1"
+        app:layout_constraintStart_toEndOf="@+id/Adress1"
+        app:layout_constraintTop_toTopOf="@+id/Adress1"
+        app:srcCompat="@drawable/sound" />
+
+    <ImageView
+        android:id="@+id/vibr1"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="15dp"
+        android:onClick="vibr1"
+        app:layout_constraintStart_toEndOf="@+id/sound1"
+        app:layout_constraintTop_toTopOf="@+id/sound1"
+        app:srcCompat="@drawable/vibration" />
+
+    <ImageView
+        android:id="@+id/quite1"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:onClick="quite1"
+        app:layout_constraintStart_toEndOf="@+id/vibr1"
+        app:layout_constraintTop_toTopOf="@+id/vibr1"
+        app:srcCompat="@drawable/nosound" />
+
+    <ImageView
+        android:id="@+id/sound2"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="28dp"
+        android:onClick="snd2"
+        app:layout_constraintStart_toEndOf="@+id/Adress2"
+        app:layout_constraintTop_toTopOf="@+id/Adress2"
+        app:srcCompat="@drawable/sound" />
+
+    <ImageView
+        android:id="@+id/sound3"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="28dp"
+        android:onClick="snd3"
+        app:layout_constraintStart_toEndOf="@+id/Adress3"
+        app:layout_constraintTop_toTopOf="@+id/Adress3"
+        app:srcCompat="@drawable/sound" />
+
+    <ImageView
+        android:id="@+id/vibr3"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="15dp"
+        android:onClick="vibr3"
+        app:layout_constraintStart_toEndOf="@+id/sound3"
+        app:layout_constraintTop_toTopOf="@+id/sound3"
+        app:srcCompat="@drawable/vibration" />
+
+    <ImageView
+        android:id="@+id/quite3"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:onClick="quite3"
+        app:layout_constraintStart_toEndOf="@+id/vibr3"
+        app:layout_constraintTop_toTopOf="@+id/vibr3"
+        app:srcCompat="@drawable/nosound" />
+
+    <ImageView
+        android:id="@+id/vibr2"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="15dp"
+        android:onClick="vibr2"
+        app:layout_constraintStart_toEndOf="@+id/sound2"
+        app:layout_constraintTop_toTopOf="@+id/sound2"
+        app:srcCompat="@drawable/vibration" />
+
+    <ImageView
+        android:id="@+id/quite2"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:onClick="quite2"
+        app:layout_constraintStart_toEndOf="@+id/vibr2"
+        app:layout_constraintTop_toTopOf="@+id/vibr2"
+        app:srcCompat="@drawable/nosound" />
+
+    <ImageView
+        android:id="@+id/chooser1"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="15dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/Adress1"
+        app:layout_constraintTop_toBottomOf="@+id/sound1"
+        app:srcCompat="@drawable/chooser"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chooser2"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="63dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/Adress1"
+        app:layout_constraintTop_toBottomOf="@+id/sound1"
+        app:srcCompat="@drawable/chooser"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chooser3"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="118dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/Adress1"
+        app:layout_constraintTop_toBottomOf="@+id/sound1"
+        app:srcCompat="@drawable/chooser"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chooser4"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="15dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/Adress2"
+        app:layout_constraintTop_toBottomOf="@+id/sound2"
+        app:srcCompat="@drawable/chooser"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chooser5"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="63dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/Adress2"
+        app:layout_constraintTop_toBottomOf="@+id/sound2"
+        app:srcCompat="@drawable/chooser"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chooser6"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="118dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/Adress2"
+        app:layout_constraintTop_toBottomOf="@+id/sound2"
+        app:srcCompat="@drawable/chooser"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chooser7"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="15dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/Adress3"
+        app:layout_constraintTop_toBottomOf="@+id/sound3"
+        app:srcCompat="@drawable/chooser"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chooser8"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="63dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/Adress3"
+        app:layout_constraintTop_toBottomOf="@+id/vibr3"
+        app:srcCompat="@drawable/chooser"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chooser9"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="118dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/Adress3"
+        app:layout_constraintTop_toBottomOf="@+id/quite3"
+        app:srcCompat="@drawable/chooser"
+        tools:visibility="invisible" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/settingsJson"
+            android:layout_width="107dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:onClick="openSettingsScreen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.74"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.98"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="mainsettings.json"
+            app:lottie_loop="false" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/exitButton"
+            android:layout_width="75dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="4dp"
+            android:onClick="systemExit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="okayandclose.json"
+            app:lottie_loop="false" />
+
+        <ImageView
+            android:id="@+id/myPlaces"
+            android:layout_width="175dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/Adress1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomeText"
+            app:layout_constraintVertical_bias="0.725"
+            app:srcCompat="@drawable/places2" />
+
+        <ImageView
+            android:id="@+id/myMods"
+            android:layout_width="175dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/Adress1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/myPlaces"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/mods2" />
+
+
+
+    <ImageView
+        android:id="@+id/Adress1"
+        android:layout_width="215dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/placebackgr"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+        <ImageView
+            android:id="@+id/Adress2"
+            android:layout_width="215dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/placebackgr"
+            android:text="Okulum"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Adress1"
+            app:layout_constraintVertical_bias="0.075" />
+
+        <ImageView
+            android:id="@+id/Adress3"
+            android:layout_width="215dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/placebackgr"
+            android:text="Kütüphanem"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Adress2"
+            app:layout_constraintVertical_bias="0.081" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/closeButton3"
+        android:layout_width="31dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="deleteAdress3"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/adressText3"
+        app:layout_constraintStart_toEndOf="@+id/addAdress3"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="15120-delete.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/closeButton1"
+        android:layout_width="31dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="deleteAdress1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/adressText1"
+        app:layout_constraintStart_toEndOf="@+id/addAdress1"
+        app:layout_constraintTop_toTopOf="@+id/addAdress1"
+        app:layout_constraintVertical_bias="0.857"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="15120-delete.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/closeButton2"
+        android:layout_width="31dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="deleteAdress2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/adressText2"
+        app:layout_constraintStart_toEndOf="@+id/addAdress2"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="15120-delete.json"
+        app:lottie_loop="true" />
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="222dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bungee_shade"
+            android:gravity="center"
+            android:text="Modify here from settings"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+        android:id="@+id/adressText1"
+        android:layout_width="214dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="236dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/Adress1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="@+id/Adress1"
+        app:layout_constraintTop_toTopOf="@+id/Adress1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/adressText2"
+        android:layout_width="214dp"
+        android:layout_height="63dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/Adress2"
+        app:layout_constraintStart_toStartOf="@+id/Adress2"
+        app:layout_constraintTop_toTopOf="@+id/Adress2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/adressText3"
+        android:layout_width="214dp"
+        android:layout_height="63dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/Adress3"
+        app:layout_constraintStart_toStartOf="@+id/Adress3"
+        app:layout_constraintTop_toTopOf="@+id/Adress3"
+        app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="162dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="60dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/saved1"
+            android:layout_width="163dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/myPlaces"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/saved3"
+            android:layout_width="186dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Deneme"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/settingsJson"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/saved2"
+            android:layout_width="186dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="224dp"
+            android:gravity="center"
+            android:text="Deneme"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/settingsJson"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

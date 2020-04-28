@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings"
+    android:background="@drawable/settingsscreen">
+
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/backbutton"
+        android:onClick="backtoMain"/>
+
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="189dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/bungee_shade"
+        android:gravity="center"
+        android:text="User Name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="227dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Yahya Can , Aslıhan vb"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userNameTextView" />
+
+    <ImageView
+        android:id="@+id/settingsText"
+        android:layout_width="237dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/userNameTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+        app:srcCompat="@drawable/settingstext1" />
+
+    <ImageView
+        android:id="@+id/settingsIcon"
+        android:layout_width="206dp"
+        android:layout_height="205dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/settingsicon" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/saveJson"
+        android:layout_width="413dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="false"
+        app:lottie_fileName="save.json"
+        app:lottie_loop="false" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/locationPermissionJson"
+        android:layout_width="134dp"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:onClick="goLCsettings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goLocationPermissionTextView"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="lcpermission.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/goLocationPermissionTextView"
+        android:layout_width="225dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="92dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="Go Permissions"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsIcon" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/modePermissionJson"
+        android:layout_width="69dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="108dp"
+        android:onClick="goModesettings"
+        app:layout_constraintBottom_toBottomOf="@+id/locationPermissionJson"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/locationPermissionJson"
+        app:layout_constraintVertical_bias="0.437"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="modepermission.json"
+        app:lottie_loop="true" />
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="74dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="saveSettings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:srcCompat="@drawable/savebutton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
