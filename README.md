@@ -2,6 +2,7 @@
 
 ### This project developed for the Solution Challenge. 
 ### Follow this link for the promotional video -> https://www.youtube.com/watch?v=sTqTBAlYllU&t=19s
+## Follow this link for the download Quiet Place Apk-> https://drive.google.com/open?id=1137EdEyQbhe21VoALvbcQXp3OUHMQHmO
 
 # App's Aim 
 Silencing the phone can be forgotten in the place where "Please Be Sure That Your Cell Phone is on Quiet or Vibrate" warning is found. This event can disturb people around us. It can put us in a difficult situation. Example, nobody wants their phone to ring at an important meeting. You mark locations where your phone needs to be muted or vibrated. When you come to that location, the Silent Location application will take the phone to your chosen mode for you with silently and quickly in background.
@@ -15,7 +16,7 @@ without disturb them.We decided to use android platform and google maps technolo
 With this application, a students phone will not ring in the middle of the class or an employee will not be embarrassed because she / he rings the phone during a serious meeting. Your phone will not ring while worshiping in the mosque, church or a different place of worship. Another point is that this app is not only for lives of people our country. It is universal. The whole world can use it.
 
 # Testing Quiet Place
-You can use any android smartphone which is minimum android version 5.1 for test our app. You can download Quiet Place Apk from project files.
+You can use any android smartphone which is minimum android version 5.1 for test our app. You can download Quiet Place Apk from download link from top title.
 
 ## App's ScreenShots
 
