@@ -4,8 +4,8 @@
 ##### Team Turtles Members : Aslıhan Türkdönmez / Yahya Can Özdemir .
 ##### Members Mail's : yahyacanozdemir@gmail.com / aslihanturkdonmez@gmail.com
 -------------------------------
-### Follow this link for the promotional video -> https://www.youtube.com/watch?v=sTqTBAlYllU&t=19s
-## Follow this link for the download Quiet Place Apk-> https://drive.google.com/open?id=1137EdEyQbhe21VoALvbcQXp3OUHMQHmO
+##### Follow this link for the promotional video -> https://www.youtube.com/watch?v=sTqTBAlYllU&t=19s
+##### Follow this link for the download Quiet Place Apk-> https://drive.google.com/open?id=1137EdEyQbhe21VoALvbcQXp3OUHMQHmO
 
 # App's Aim 
 Silencing the phone can be forgotten in the place where "Please Be Sure That Your Cell Phone is on Quiet or Vibrate" warning is found. This event can disturb people around us. It can put us in a difficult situation. Example, nobody wants their phone to ring at an important meeting. You mark locations where your phone needs to be muted or vibrated. When you come to that location, the Silent Location application will take the phone to your chosen mode for you with silently and quickly in background.
