@@ -21,6 +21,9 @@ With this application, a students phone will not ring in the middle of the class
 # Testing Quiet Place
 You can use any android smartphone which is minimum android version 5.1 for test our app. You can download Quiet Place Apk from download link from top title.
 
+-------------------------------
+# SET YOUR MODE, START YOUR DAY!
+
 ## App's ScreenShots
 
 ![1](https://user-images.githubusercontent.com/43846778/80542743-44d3b600-89b6-11ea-885b-43fe0491f942.png)
