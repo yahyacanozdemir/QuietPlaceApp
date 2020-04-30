@@ -1,6 +1,9 @@
 # Quiet Place Mobile App
 
-### This project developed for the Solution Challenge. 
+### This project developed for the Solution Challenge by Team Turtles.
+##### Team Turtles Members : Aslıhan Türkdönmez / Yahya Can Özdemir .
+##### Members Mail's : yahyacanozdemir@gmail.com / aslihanturkdonmez@gmail.com
+-------------------------------
 ### Follow this link for the promotional video -> https://www.youtube.com/watch?v=sTqTBAlYllU&t=19s
 ## Follow this link for the download Quiet Place Apk-> https://drive.google.com/open?id=1137EdEyQbhe21VoALvbcQXp3OUHMQHmO
 
@@ -33,3 +36,5 @@ You can use any android smartphone which is minimum android version 5.1 for test
 ![10](https://user-images.githubusercontent.com/43846778/80542841-6cc31980-89b6-11ea-9eb5-cba55dd26bee.png)
 ![12](https://user-images.githubusercontent.com/43846778/80542855-7482be00-89b6-11ea-83bd-77c7528e1f9c.png)
 ![13](https://user-images.githubusercontent.com/43846778/80542867-7a789f00-89b6-11ea-89c3-2131acd0d554.png)
+
+    Quiet Place  created and developed by Team Turtles 
